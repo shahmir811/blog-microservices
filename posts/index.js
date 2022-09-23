@@ -41,5 +41,6 @@ app.post('/events', (req, res) => {
 });
 
 app.listen(4000, () => {
+	console.log('Latest version of POSTS application');
 	console.log('POSTS Service is listening on 4000');
 });
